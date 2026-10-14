@@ -2561,6 +2561,12 @@ input, select, textarea {
 			margin: 0 0 1.5em 0;
 		}
 
+			.work-item .image img {
+				aspect-ratio: 970 / 569;
+				background-color: #fff;
+				object-fit: contain;
+			}
+
 		.work-item h3 {
 			font-size: 1em;
 			margin: 0 0 0.5em 0;
@@ -2593,7 +2599,7 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/bg.heic");
+		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								repeat;
 		background-size: auto,								150%;
@@ -3078,7 +3084,7 @@ input, select, textarea {
 			#footer {
 				background-attachment: scroll;
 				background-color: #1f1815;
-				background-image: url("images/overlay.png"), url("../../images/bg.heic");
+				background-image: url("images/overlay.png"), url("../../images/bg.jpg");
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;

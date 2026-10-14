@@ -1051,6 +1051,12 @@ $size-header-pad: 4em;
 
 		.image {
 			margin: 0 0 (_size(element-margin) * 0.75) 0;
+
+			img {
+				aspect-ratio: 970 / 569;
+				background-color: #fff;
+				object-fit: contain;
+			}
 		}
 
 		h3 {
